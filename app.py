@@ -8,7 +8,7 @@ from docx import Document
 # Gemini Configuration
 # =========================
 # Set API KEY
-API_KEY = "AQ.Ab8RN6JCrQY9PpEr7mk06F0o5f3Ks5pnxhT0X4KpedJlVf7Unw"
+API_KEY = "AQ.Ab8RN6LXWVhh0w_zvrDjZLLs9Gps2bJntfW3sV2T37ycqZGlAw"
 
 genai.configure(api_key=API_KEY)
 
