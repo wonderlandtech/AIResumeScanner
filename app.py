@@ -2,13 +2,17 @@ import streamlit as st
 import google.generativeai as genai
 from pypdf import PdfReader
 from docx import Document
+from dotenv import load_dotenv
+import os
 
+
+load_dotenv()
 
 # =========================
 # Gemini Configuration
 # =========================
 # Set API KEY
-API_KEY = "AQ.Ab8RN6LbzS7VNwRJss59yZxYlEWEPs_zc14An35CkhWE_kqNxA"
+API_KEY = os.getenv("Google_API_Key")
 
 genai.configure(api_key=API_KEY)
 
